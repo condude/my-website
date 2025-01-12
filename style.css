@@ -9,4 +9,15 @@ body {
 #home {
     display: flex;
     border: 2px solid darkblue;
+    flex-direction: column;
+}
+
+#home-nav, #home-nav-bar, #home-nav-wrap, #menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+h1 {
+    display: flex;
 }
