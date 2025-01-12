@@ -1,5 +1,5 @@
 * {
-    border: 2px solid red;
+    border: 1px solid red;
 }
 
 body {
@@ -8,16 +8,48 @@ body {
 
 #home {
     display: flex;
-    border: 2px solid darkblue;
+    border: 1px solid darkblue;
     flex-direction: column;
 }
 
-#home-nav, #home-nav-bar, #home-nav-wrap, #menu {
+.home-nav, .home-nav.bar{
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
 }
 
 h1 {
+    text-align: center;
+    color: whitesmoke;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.menu {
     display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: baseline;
+    background-color: rgb(39, 39, 114);
+}
+
+.home-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(39, 39, 114);
+    color: white;
+    padding: 20px;
+}
+
+.home-footer {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(65, 65, 68);
+    color: white;
+    padding: 20px;
 }
