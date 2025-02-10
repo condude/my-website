@@ -12,7 +12,7 @@ body {
     flex-direction: column;
 }
 
-.home-nav, .home-nav.bar{
+.home-nav, .home-nav-bar{
     display: flex;
     flex-direction: row;
 }
